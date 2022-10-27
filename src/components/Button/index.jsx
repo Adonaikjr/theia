@@ -1,9 +1,5 @@
-import { Container } from "./styled";
+import { Container } from './styled'
 
-export function Button({title}){
-    return(
-        <Container>
-            {title}
-        </Container>
-    )
+export function Button({ title }) {
+  return <Container>{title}</Container>
 }

@@ -1,10 +1,5 @@
-import { Container } from './styled';
-import logohome from '../../assets/Logo.svg'
+import { Container } from './styled'
 
-export function LogoPageHome ({logo}){
-    return(
-        <Container>
-            {logo}
-        </Container>
-    )
+export function LogoPageHome({ logo }) {
+  return <Container>{logo}</Container>
 }
